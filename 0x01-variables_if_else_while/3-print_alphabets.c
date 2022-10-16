@@ -2,13 +2,15 @@
 /**
 * main - Prints the alphabetic in lower and upper case
 *
-* Return: Always (Success)
+* Description: Prints the alphabetic in lower and upper case
+*
+* Return: Is 0
 */
 int main(void)
 {
 char c;
 /**
-*In lowercase 
+* In lowercase
 */
 for (c = 'a'; c <= 'z'; c++)
 {
