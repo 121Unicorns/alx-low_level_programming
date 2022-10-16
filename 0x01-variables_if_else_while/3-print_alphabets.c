@@ -8,20 +8,20 @@
 */
 int main(void)
 {
-char c;
+char i;
 /**
 * In lowercase
 */
-for (c = 'a'; c <= 'z'; c++)
+for (i = 'a'; i <= 'z'; i++)
 {
-putchar(c);
+putchar(i);
 }
 /**
 *In uppercase
 */
-for (c = 'A'; c <= 'Z'; c++)
+for (i = 'A'; i <= 'Z'; i++)
 {
-putchar(c);
+putchar(i);
 }
 putchar('\n');
 return (0);
