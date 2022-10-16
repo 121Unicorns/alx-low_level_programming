@@ -9,16 +9,10 @@
 int main(void)
 {
 char i;
-/**
-* In lowercase
-*/
 for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
-/**
-*In uppercase
-*/
 for (i = 'A'; i <= 'Z'; i++)
 {
 putchar(i);
