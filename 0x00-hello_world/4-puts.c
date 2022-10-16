@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * Existence is pain to a Meeseeks
- * This script prints "Programming is like building a multilingual puzzle"
- */
+* main - prints "Programming is like building a multilingual puzzle"
+* Description: prints "Programming is like building a multilingual puzzle" and returns 0
+* Return: It always returns 0
+*/
 
 int main(void)
 {
