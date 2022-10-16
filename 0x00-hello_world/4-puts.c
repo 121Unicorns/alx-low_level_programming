@@ -1,12 +1,11 @@
-#include <stdio.h>
-
 /**
  * Existence is pain to a Meeseeks
- * This prints "Programming is like building a multilingual puzzle"
- *ccess)
+ * This script prints "Programming is like building a multilingual puzzle"
  */
-int main(void)
-{
+
+#include <stdio.h>
+
+int main(void){
   puts("\"Programming is like building a multilingual puzzle");
   return (0);
 }
