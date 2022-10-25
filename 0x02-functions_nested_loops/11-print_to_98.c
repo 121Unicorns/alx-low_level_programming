@@ -2,6 +2,7 @@
 #include "main.h"
 /**
 * add -  Prints all natural numbers from n to 98.
+* @n: n is a number
 * Description: Prints all natural numbers from n to 98.
 * Return: Is void.
 */
