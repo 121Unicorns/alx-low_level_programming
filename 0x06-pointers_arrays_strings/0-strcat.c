@@ -3,7 +3,7 @@
 * _strcat - Concatenates two strings.
 * @src: String that gets added to dest
 * @dest: String to append to
-* Return: Is 0.
+* Return: Is new dest string
 */
 char *_strcat(char *dest, char *src)
 {

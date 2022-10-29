@@ -4,7 +4,7 @@
 * @src: String that gets added to dest
 * @dest: String to append to
 * @n: The number of bytes from src to be appended to dest.
-* Return: Is 0.
+* Return: Is new dest string
 */
 char *_strncat(char *dest, char *src, int n)
 {

@@ -4,7 +4,7 @@
 * @src: Original string
 * @dest: String copy
 * @n: The number of bytes from copied from src.
-* Return: Is 0.
+* Return: Is new dest string
 */
 char *_strncpy(char *dest, char *src, int n)
 {
