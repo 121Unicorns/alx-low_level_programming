@@ -40,8 +40,9 @@ iterate_wild(wildstr);
 * postfix of another string potentially containing wildcards.
 * @str: The string to be matched.
 * @postfix: The postfix.
-* Return: If str and postfix are identical returns pointer to null byte at the end of postfix.
-*         Else returns a pointer to the first unmatched character in postfix.
+* Return: If str and postfix are identical returns pointer to null byte
+* at the end of postfix else returns a pointer to the first
+* unmatched character in postfix.
 */
 char *postfix_match(char *str, char *postfix)
 {
