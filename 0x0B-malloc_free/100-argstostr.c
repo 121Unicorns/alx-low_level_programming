@@ -25,7 +25,7 @@ len++;
 i++;
 }
 len++;
-str = malloc(len * sizeof(char));
+str = malloc(len *sizeof(char));
 if (str == NULL)
 return (NULL);
 i = k = 0;

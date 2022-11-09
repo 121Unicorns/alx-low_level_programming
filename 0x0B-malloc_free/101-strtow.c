@@ -31,7 +31,7 @@ int *find_words_len(char *str, int words)
 {
 int i, word, len;
 int *sizes;
-sizes = malloc(words * sizeof(int));
+sizes = malloc(words *sizeof(int));
 if (sizes == NULL)
 return (NULL);
 i = word = 0;
@@ -65,18 +65,18 @@ int words, i, j, k, cur_words, *sizes;
 if (str == NULL || *str == '\0')
 return (NULL);
 words = word_count(str);
-sizes = malloc(words * sizeof(int));
+sizes = malloc(words *sizeof(int));
 if (sizes == NULL)
 return (NULL);
 sizes = find_words_len(str, words);
-nstr = malloc((words + 1) * sizeof(char *));
+nstr = malloc((words + 1) *sizeof(char *));
 if (nstr == NULL)
 return (NULL);
 i = j = k = 0;
 while (i < words && str[j] != '\0')
 {
 cur_words = i;
-nstr[i] = malloc(sizes[i] + sizeof(char));
+nstr[i] = malloc(sizes[i] +sizeof(char));
 if (nstr[i] == NULL)
 {
 for (i = i - 1; i >= 0; i--)
