@@ -1,3 +1,1 @@
-# THIS IS A README
-
-#### It is not empty
+This is C Static Libraries
