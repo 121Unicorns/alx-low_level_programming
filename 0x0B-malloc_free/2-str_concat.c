@@ -5,7 +5,6 @@
 * str_concat - Concatenate (combine) two strings
 * @s1: First string
 * @s2: Second string
-*
 * Return: Pointer to new space in memory, NULL if it fails
 */
 char *str_concat(char *s1, char *s2)
